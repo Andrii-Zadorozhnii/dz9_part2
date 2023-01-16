@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
     list-style: none;
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
 }
 
-form {
+main {
     max-width: 1440px;
     width: 100%;
     height: 100%;
@@ -35,33 +37,35 @@ form {
 }
 
 ul {
+    max-width: 1170px;
+    max-height: 592px;
+    width: 100%;
+    height: 100%;
+}
+
+li {
     display: inline-block;
+    width: 291.5px;
+    height: 147px;
+    padding: 26px;
+    background: #3399CC;
+    border: 2px solid #FFFFFF;
+    margin: 0;
+    align-items: center;
+    text-align: center;
 }
 
-li{
-    display: block;
+svg {
+    width: 47px;
+    height: 61px;
 }
-
 
 .city1 {
     width: 583px;
     height: 147px;
     padding: 26px;
-    background: #3399CC;
-    border: 2px solid #FFFFFF;
 }
 
-li p{
-   align-items: center;
-   text-align: center;
-}
-
-span{
-    display: inline;
-    margin: auto auto;
-}
-
-svg{
-    width: 47px;
-    height: 61px;
+.city2{
+    margin-left: -1px;
 }
